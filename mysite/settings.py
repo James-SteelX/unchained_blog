@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': 'unchained_blog',
         'USER': 'jamessteel',
         'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
