@@ -78,9 +78,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'unchained_blog',
-        'USER': 'jamessteel',
-        'PASSWORD': '',
+        'NAME': 'unchained_blog_development',
         'HOST': 'localhost',
         'PORT': '',
     }
