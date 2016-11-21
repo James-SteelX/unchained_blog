@@ -81,6 +81,12 @@ DATABASES = {
         'NAME': 'unchained_blog_development',
         'HOST': 'localhost',
         'PORT': '',
+    },
+    'test': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'unchained_blog_test',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
