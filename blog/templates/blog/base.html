@@ -9,6 +9,13 @@
   </head>
  <body>
 
+   {% if user.is_authenticated %}
+    <a href="/logout">Log Out</a>
+   {% else %}
+    <a href="/accounts/register">Register</a>
+    <a href="/login">Log In</a>
+   {% endif %}
+
    <div class='page-header'>
      {% if user.is_authenticated %}
       <a href="{% url 'post_new' %}" class='top-menu'><span class='glyphicon glyphicon-plus'></span></a>
